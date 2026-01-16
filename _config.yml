@@ -1,0 +1,6 @@
+title: Executive AI Briefs
+description: Turn raw data into clear decisions.
+theme: null
+markdown: kramdown
+kramdown:
+  input: GFM
