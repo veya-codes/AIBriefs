@@ -2,7 +2,7 @@
 title: Executive AI Briefs
 ---
 
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 <div class="container">
 
