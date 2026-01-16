@@ -1,190 +1,291 @@
----
-title: Executive AI Briefs
----
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="topbar">
-        <div class="brand">Executive AI Briefs</div>
-        <div class="badge">Executive-ready insights from your spreadsheets</div>
-      </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Executive AI Briefs — Turn raw data into clear decisions</title>
+  <meta name="description" content="Upload a spreadsheet. Get an executive-ready AI brief: what changed, why it matters, and what to do next." />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-      <section class="hero">
-        <h1>Turn raw data into clear decisions.</h1>
-        <p class="lede">
-          Your business data already contains the answers. We convert it into a concise, executive-ready brief explaining <b>what changed</b>, <b>why it matters</b>, and <b>what to do next</b>.
-        </p>
-        <div class="punch">No dashboards. No analysts. No meetings.</div>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Executive AI Briefs" />
+  <meta property="og:description" content="Turn raw data into clear decisions. No dashboards. No analysts. No meetings." />
+  <meta property="og:type" content="website" />
+</head>
 
-        <div class="ctaRow">
-          <a class="btn btnPrimary" href="#pricing">👉 Get your AI Executive Brief</a>
-          <a class="btn btnGhost" href="#how-it-works">See how it works</a>
-        </div>
-        <p class="small" style="margin-top:10px;">
-          Built for founders, operators, and decision-makers who want clarity without overhead.
-        </p>
-      </section>
+<body>
+  <header class="nav">
+    <div class="container navInner">
+      <a class="logo" href="#top">Executive AI Briefs</a>
 
-      <div class="hr"></div>
+      <nav class="navLinks">
+        <a href="#solution">Solution</a>
+        <a href="#deliverable">Deliverable</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
 
-      <h2>The problem</h2>
-      <p>
-        Most teams already have the data. But when it’s time to make a decision, they end up with spreadsheets that require interpretation,
-        dashboards no one checks, delays waiting for analysis, and meetings just to explain numbers.
-      </p>
-      <p><b>The bottleneck isn’t data availability. It’s interpretation and clarity.</b></p>
+      <a class="btn btnPrimary btnSmall" href="#pricing">Get Brief</a>
+    </div>
+  </header>
 
-      <h2>The solution</h2>
-      <p>
-        Upload your data. Receive a <b>plain-English executive brief</b> that answers the questions leaders actually ask.
-        Written to be read in <b>under 5 minutes</b> and acted on immediately.
-      </p>
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container heroGrid">
+        <div>
+          <div class="pill">Executive-ready insights from your spreadsheets</div>
+          <h1>Turn raw data into clear decisions.</h1>
+          <p class="lede">
+            Upload your business data and receive a concise executive brief explaining
+            <b>what changed</b>, <b>why it matters</b>, and <b>what to do next</b>.
+          </p>
 
-      <h2>What you receive</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>📊 What changed</h3>
-          <p>Clear explanation of key movements, trends, and anomalies.</p>
-        </div>
-        <div class="card">
-          <h3>🔍 Why it changed</h3>
-          <p>Likely drivers such as seasonality, pricing, mix, geography, or behavior shifts.</p>
-        </div>
-        <div class="card">
-          <h3>🎯 What matters most</h3>
-          <p>The 3–5 insights that deserve leadership attention.</p>
-        </div>
-        <div class="card">
-          <h3>⚠️ Risks & early signals</h3>
-          <p>Emerging issues, red flags, and data blind spots.</p>
-        </div>
-      </div>
-
-      <div class="card" style="margin-top:14px;">
-        <h3>✅ Recommended actions</h3>
-        <p>Specific, plain-English next steps you can take immediately.</p>
-      </div>
-
-      <h2>What you can upload</h2>
-      <ul class="list">
-        <li>CSV or Excel files</li>
-        <li>Sales, revenue, operations, marketing, or property data</li>
-        <li>Power BI / reporting exports</li>
-        <li>Optional context (goals, concerns, or questions)</li>
-      </ul>
-      <p class="small">If it fits in a spreadsheet, we can analyze it.</p>
-
-      <h2 id="pricing">Pricing</h2>
-      <p>Simple, transparent pricing. No contracts.</p>
-
-      <div class="pricing">
-        <div class="plan">
-          <h3>One-Off Insight</h3>
-          <div class="price">$49</div>
-          <ul class="list">
-            <li>One data upload</li>
-            <li>One executive AI brief</li>
-            <li>Delivered within minutes</li>
+          <ul class="checks">
+            <li>No dashboards to maintain</li>
+            <li>No analysts or meetings</li>
+            <li>Readable in ~5 minutes</li>
           </ul>
-          <div class="ctaRow" style="margin-top:14px;">
+
+          <div class="ctaRow">
+            <a class="btn btnPrimary" href="#pricing">👉 Get your AI Executive Brief</a>
+            <a class="btn btnGhost" href="#sample">View a sample output</a>
+          </div>
+
+          <p class="micro">
+            Built for founders, operators, finance & ops leads, and teams who need clarity fast.
+          </p>
+        </div>
+
+        <!-- Right-side mock -->
+        <div class="mock" aria-label="Sample brief preview">
+          <div class="mockTop">
+            <div class="dots"><span></span><span></span><span></span></div>
+            <div class="mockTitle">Executive Brief (Preview)</div>
+          </div>
+          <div class="mockBody">
+            <div class="mockH">Summary</div>
+            <div class="mockP">Revenue is up <b>+12%</b> MoM, driven by higher conversion in Segment B. Margin dipped due to promo mix.</div>
+            <div class="mockH">What changed</div>
+            <div class="mockP">• Unit sales ↑ in West region<br/>• CAC ↑ for Search<br/>• Refunds flat</div>
+            <div class="mockH">Recommended actions</div>
+            <div class="mockP">1) Adjust promo thresholds<br/>2) Reallocate spend from Search → Retargeting<br/>3) Investigate margin drop in SKU group 3</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container trustRow">
+        <div class="trustItem">Privacy-first</div>
+        <div class="trustItem">No long-term storage</div>
+        <div class="trustItem">Works with CSV/XLSX</div>
+        <div class="trustItem">Fast turnaround</div>
+      </div>
+    </section>
+
+    <!-- PROBLEM -->
+    <section class="section">
+      <div class="container">
+        <h2>The problem</h2>
+        <p class="sectionLede">
+          Most teams already have the data. The bottleneck is turning it into decision-ready clarity.
+        </p>
+
+        <div class="cards3">
+          <div class="card">
+            <h3>Spreadsheets everywhere</h3>
+            <p>Insights get buried across tabs, exports, and inconsistent definitions.</p>
+          </div>
+          <div class="card">
+            <h3>Dashboards don’t answer “why”</h3>
+            <p>Charts show movement, but not the likely drivers or what to do next.</p>
+          </div>
+          <div class="card">
+            <h3>Delays & meetings</h3>
+            <p>Waiting for interpretation slows execution and wastes leadership time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section class="section alt" id="solution">
+      <div class="container">
+        <h2>The solution</h2>
+        <p class="sectionLede">
+          Upload your data. Receive a plain-English executive brief designed to be read in under 5 minutes.
+        </p>
+
+        <div class="steps">
+          <div class="step">
+            <div class="stepNum">1</div>
+            <div>
+              <h3>Upload your file</h3>
+              <p>CSV or Excel. Add optional context (goals, concerns, questions).</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="stepNum">2</div>
+            <div>
+              <h3>We analyze patterns & drivers</h3>
+              <p>Trends, anomalies, likely drivers, risks, and early signals.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="stepNum">3</div>
+            <div>
+              <h3>You get an executive-ready brief</h3>
+              <p>Clear findings + recommended actions you can take immediately.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DELIVERABLE -->
+    <section class="section" id="deliverable">
+      <div class="container">
+        <h2>What you receive</h2>
+        <p class="sectionLede">A consistent, leadership-friendly structure every time.</p>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>📊 What changed</h3>
+            <p>Key movements, trends, and anomalies explained in plain language.</p>
+          </div>
+          <div class="card">
+            <h3>🔍 Why it changed</h3>
+            <p>Likely drivers: seasonality, pricing, mix, geography, behavior shifts.</p>
+          </div>
+          <div class="card">
+            <h3>🎯 What matters most</h3>
+            <p>The 3–5 insights that deserve leadership attention.</p>
+          </div>
+          <div class="card">
+            <h3>⚠️ Risks & early signals</h3>
+            <p>Red flags, emerging issues, and data blind spots.</p>
+          </div>
+        </div>
+
+        <div class="card callout">
+          <h3>✅ Recommended actions</h3>
+          <p>Specific next steps written so you can act immediately.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SAMPLE -->
+    <section class="section alt" id="sample">
+      <div class="container">
+        <h2>Sample output</h2>
+        <p class="sectionLede">A preview of what your brief looks like (format is consistent).</p>
+
+        <div class="sampleBox">
+          <div class="sampleHeader">Executive AI Brief — Example</div>
+          <div class="sampleBody">
+            <p><b>Headline:</b> Revenue +12% MoM; margin -1.8 pts due to promo mix.</p>
+            <p><b>What changed:</b> Segment B conversion ↑; West region volume ↑; Search CAC ↑.</p>
+            <p><b>Why:</b> Promo thresholds shifted mix to lower-margin SKUs; conversion improved after landing-page update.</p>
+            <p><b>Actions:</b> Tighten promo thresholds, reallocate budget, audit SKU group 3 margin drivers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <h2>Pricing</h2>
+        <p class="sectionLede">Simple, transparent pricing. No contracts.</p>
+
+        <div class="pricing">
+          <div class="plan">
+            <h3>One-Off Insight</h3>
+            <div class="price">$49</div>
+            <ul class="list">
+              <li>One upload</li>
+              <li>One executive brief</li>
+              <li>Delivered within minutes</li>
+            </ul>
             <a class="btn btnPrimary" href="YOUR_STRIPE_ONEOFF">Get One-Off</a>
+            <p class="micro">Ideal for quick answers or one-time analysis.</p>
           </div>
-          <p class="small" style="margin-top:10px;">Ideal for quick answers or one-time analysis.</p>
-        </div>
 
-        <div class="plan featured">
-          <div class="tag">Most Popular</div>
-          <h3>Monthly Insights</h3>
-          <div class="price">$99<span class="small">/mo</span></div>
-          <ul class="list">
-            <li>Up to 4 uploads per month</li>
-            <li>Month-over-month comparisons</li>
-            <li>Priority processing</li>
-            <li>Email delivery</li>
-          </ul>
-          <div class="ctaRow" style="margin-top:14px;">
+          <div class="plan featured">
+            <div class="tag">Most Popular</div>
+            <h3>Monthly Insights</h3>
+            <div class="price">$99 <span>/mo</span></div>
+            <ul class="list">
+              <li>Up to 4 uploads/month</li>
+              <li>MoM comparisons</li>
+              <li>Priority processing</li>
+              <li>Email delivery</li>
+            </ul>
             <a class="btn btnPrimary" href="YOUR_STRIPE_MONTHLY">Subscribe</a>
+            <p class="micro">Best for founders/operators tracking performance.</p>
           </div>
-          <p class="small" style="margin-top:10px;">Best for founders and operators tracking performance.</p>
-        </div>
 
-        <div class="plan">
-          <h3>Pro / Ops Teams</h3>
-          <div class="price">$199<span class="small">/mo</span></div>
-          <ul class="list">
-            <li>Unlimited uploads (fair use)</li>
-            <li>Multi-dataset comparisons</li>
-            <li>Deeper analysis</li>
-            <li>Priority support</li>
-          </ul>
-          <div class="ctaRow" style="margin-top:14px;">
+          <div class="plan">
+            <h3>Pro / Ops Teams</h3>
+            <div class="price">$199 <span>/mo</span></div>
+            <ul class="list">
+              <li>Unlimited uploads (fair use)</li>
+              <li>Multi-dataset comparisons</li>
+              <li>Deeper analysis</li>
+              <li>Priority support</li>
+            </ul>
             <a class="btn btnPrimary" href="YOUR_STRIPE_PRO">Go Pro</a>
+            <p class="micro">Designed for teams that live in data but need clarity.</p>
           </div>
-          <p class="small" style="margin-top:10px;">Designed for teams that live in data but need clarity.</p>
+        </div>
+
+        <div class="note">
+          <b>Launch tip:</b> You can manually deliver the first 10–20 briefs. Don’t block on automation.
         </div>
       </div>
+    </section>
 
-      <h2>Why this is different</h2>
-      <div class="card">
-        <ul class="list">
-          <li>❌ No dashboards to build or maintain</li>
-          <li>❌ No BI tools to learn</li>
-          <li>❌ No consultants, analysts, or recurring meetings</li>
-          <li>✔ Just clear answers, written for decision-makers</li>
-        </ul>
+    <!-- FAQ -->
+    <section class="section alt" id="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+
+        <details class="faq">
+          <summary>Is my data stored?</summary>
+          <p>No. We keep it only as long as required to produce the brief.</p>
+        </details>
+
+        <details class="faq">
+          <summary>What if my spreadsheet is messy?</summary>
+          <p>That’s common. Upload it anyway — include a note about what “good” looks like for you.</p>
+        </details>
+
+        <details class="faq">
+          <summary>What types of data work best?</summary>
+          <p>Sales, revenue, operations, marketing metrics, and reporting exports (CSV/XLSX).</p>
+        </details>
+
+        <div class="finalCta">
+          <h2>Stop guessing. Start making decisions with clarity.</h2>
+          <a class="btn btnPrimary" href="#pricing">👉 Get your AI Executive Brief</a>
+          <p class="micro">Questions? Contact: <b>your@email.com</b></p>
+        </div>
       </div>
+    </section>
+  </main>
 
-      <h2>Who this is for</h2>
-      <ul class="list">
-        <li>SMB founders and operators</li>
-        <li>Finance and operations leaders</li>
-        <li>Real estate brokerages and investors</li>
-        <li>Teams with data but limited analytical bandwidth</li>
-      </ul>
-      <p><i>If you’ve ever asked “What actually happened here?” — this is built for you.</i></p>
-
-      <h2 id="how-it-works">How it works</h2>
-      <div class="grid">
-        <div class="card"><h3>1) Upload your data</h3><p>CSV or Excel. Add context if you want.</p></div>
-        <div class="card"><h3>2) AI analyzes patterns</h3><p>Trends, anomalies, drivers, and early signals.</p></div>
-        <div class="card"><h3>3) Receive your brief</h3><p>Executive-ready summary you can act on immediately.</p></div>
-        <div class="card"><h3>That’s it.</h3><p>No setup, no tools, no learning curve.</p></div>
-      </div>
-
-      <h2>Early usage</h2>
-      <div class="card">
-        <ul class="list">
-          <li>Prepare leadership updates</li>
-          <li>Understand sudden performance changes</li>
-          <li>Make faster, more confident decisions</li>
-        </ul>
-        <p class="small">(Initial customer testimonials coming soon.)</p>
-      </div>
-
-      <h2>Stop guessing. Start making decisions with clarity.</h2>
-      <div class="ctaRow">
-        <a class="btn btnPrimary" href="#pricing">👉 Get your AI Executive Brief</a>
-      </div>
-
-      <div class="note">
-        <b>Privacy-first.</b> Your data is not stored longer than required.<br>
-        Questions? Contact: <b>your@email.com</b>
-      </div>
-
-      <div class="footer">
-        © <span id="year"></span> Executive AI Briefs • Privacy-first • Built for decision-makers
+  <footer class="footer">
+    <div class="container footerInner">
+      <div>© <span id="year"></span> Executive AI Briefs</div>
+      <div class="footerLinks">
+        <span>Privacy-first</span>
+        <span>•</span>
+        <span>No long-term storage</span>
       </div>
     </div>
+  </footer>
 
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-  </body>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
